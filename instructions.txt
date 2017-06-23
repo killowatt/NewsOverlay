@@ -1,0 +1,7 @@
+The script provided is a simple script that will funnel the twitch chat from a specified channel into a text file for use in a streaming program like OBS.
+
+To run the script, first you must configure it to use your information. Go to the scripts directory and open config.py in a text editor.
+Edit the name to your twitch username and the channel to the twitch channel you want to use (preserving the # symbol in the name).
+Also, go to https://twitchapps.com/tmi/ and get a oauth key to replace the one under the variable "token" in the config file.
+
+After that, just run the script.bat file in the parent directory and you should be set. Feel free to use the scene.json file if you're using OBS.
